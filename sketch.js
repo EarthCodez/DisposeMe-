@@ -14,11 +14,11 @@ var track, car1_img, car2_img,bg1;
 var count=1;
 
 function preload(){
-  track = loadImage("/images/track.jpg");
-  car1_img = loadImage("https://github.com/EarthCodez/DisposeMe-/blob/main/images/car1.png?raw=true");
-  car2_img = loadImage("https://github.com/EarthCodez/DisposeMe-/blob/main/images/car2.png?raw=true");
-  bg1=loadImage("https://github.com/EarthCodez/DisposeMe-/blob/main/images/form_bg.jpg?raw=true")
-  ground = loadImage("https://github.com/EarthCodez/DisposeMe-/blob/main/images/ground.png?raw=true");
+  track = loadImage("DisposeMe-/images/track.jpg");
+  car1_img = loadImage("DisposeMe-/images/car1.png");
+  car2_img = loadImage("DisposeMe-/images/car2.png");
+  bg1=loadImage("DisposeMe-/images/form_bg.jpg")
+  ground = loadImage("DisposeMe-/images/ground.png");
 }
 
 function setup(){
