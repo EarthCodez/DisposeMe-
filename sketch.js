@@ -14,11 +14,11 @@ var track, car1_img, car2_img,bg1;
 var count=1;
 
 function preload(){
-  track = loadImage("./images/track.jpg");
-  car1_img = loadImage("./images/car1.png");
-  car2_img = loadImage("./images/car2.png");
-  bg1=loadImage("./images/form_bg.jpg")
-  ground = loadImage("./images/ground.png");
+  track = loadImage("../images/track.jpg");
+  car1_img = loadImage("../images/car1.png");
+  car2_img = loadImage("../images/car2.png");
+  bg1=loadImage("../images/form_bg.jpg")
+  ground = loadImage("../images/ground.png");
 }
 
 function setup(){
