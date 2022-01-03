@@ -15,10 +15,10 @@ var count=1;
 
 function preload(){
   track = loadImage("/images/track.jpg");
-  car1_img = loadImage("/images/car1.png");
-  car2_img = loadImage("/images/car2.png");
-  bg1=loadImage("/images/form_bg.jpg")
-  ground = loadImage("/images/ground.png");
+  car1_img = loadImage("https://github.com/EarthCodez/DisposeMe-/blob/main/images/car1.png?raw=true");
+  car2_img = loadImage("https://github.com/EarthCodez/DisposeMe-/blob/main/images/car2.png?raw=true");
+  bg1=loadImage("https://github.com/EarthCodez/DisposeMe-/blob/main/images/form_bg.jpg?raw=true")
+  ground = loadImage("https://github.com/EarthCodez/DisposeMe-/blob/main/images/ground.png?raw=true");
 }
 
 function setup(){
